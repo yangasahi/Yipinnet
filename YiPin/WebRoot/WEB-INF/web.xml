@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.UserServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidataServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.ValidataServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>ValidataServlet</servlet-name>
+    <url-pattern>/ValidataServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.TopServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>TopServlet</servlet-name>
+    <url-pattern>/TopServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScanServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.ScanServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>ScanServlet</servlet-name>
+    <url-pattern>/ScanServlet</url-pattern>
+     </servlet-mapping>
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.GoodsServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/GoodsServlet</url-pattern>
+     </servlet-mapping>
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YipinServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.YipinServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>YipinServlet</servlet-name>
+    <url-pattern>/YipinServlet</url-pattern>
+     </servlet-mapping>
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.CommentServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+     </servlet-mapping>
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FaceServlet</servlet-name>
+    <servlet-class>com.yipin.servlet.FaceServlet</servlet-class>
+     </servlet>
+	
+    <servlet-mapping>
+    <servlet-name>FaceServlet</servlet-name>
+    <url-pattern>/FaceServlet</url-pattern>
+     </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="YiPin"
+  id="myeclipse.1352002798674"
+  context-root="/YiPin"
+  j2ee-spec="5.0"
+  archive="YiPin.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

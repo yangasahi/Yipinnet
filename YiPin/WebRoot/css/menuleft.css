@@ -1,0 +1,29 @@
+
+img{border:0}
+.clear{clear:both;}
+*{margin:0;padding:0;}
+
+.sidebar {background: #2CADFF;width:190px;padding:1px;margin:5px 5px;}
+.sidebar h2{color:#fff;font-size:14px;line-height:20px;text-align:center;background:url(title.jpg) no-repeat; }
+
+#menu {width:235px;background: #ECECEC;padding:8px 0;}
+#menu li{float:left;width:146px;display:block;padding-left:65px; padding-bottom:9px;padding-top:9px; background: #fff;position:relative;border-bottom:#ffeef4 1px solid;background:url(arrow.gif) no-repeat 16px 10px;}
+#menu li:hover {background: #2CADFF;}
+#menu li a {font-size:19px;color:#3B4053;display:block;outline:0;text-decoration:none;line-height:28px;}
+#menu li:hover a {color:#fff;}
+
+#menu li:hover div a {font-size:12px;color:#969494;line-height:16px;}
+#menu li:hover div a:hover {color:#2CADFF;}
+
+#menu li:hover .cms_submenu{left:186px;top:0;}
+
+.cms_submenu{float:left;position:absolute;left:-999em;text-align:left;border-left:6px solid #2CADFF; border-top:2px solid #2CADFF;border-bottom:2px solid #2CADFF;border-right:2px solid #2CADFF;width:570px;background: #fff;padding:5px 0 5px;z-index:2;}
+.cmsmenuleft{float:left;width:335px;color:#ccc;padding:5px;border-right:1px #eee solid;}
+.cmsmenuright{float:right;width:210px;padding:5px;}
+.cmsmenuright a{float:left;display:inline;}
+.cmsmenuright img{margin:0 4px 4px 0;}
+
+.cmsmenuleft dt,.cmsmenuright dt{font-weight:bold;color:#2CADFF;margin:5px 0;padding:3px 0 3px 10px;text-align:left;}
+.menu_recommend dd,.menu_price dd{}
+.menu_new dd{padding-left:8px;}
+.cmsmenuleft dd i{font-style: normal;float:left;padding:0 8px;margin:3px 0;white-space: nowrap;border-right:1px solid #ccc;}
